@@ -2,7 +2,11 @@ type: MechPad
 category: upgrade
 mech: acropol
 size: 2
+consumes: {
+  power: 0.7
+}
 requirements: [
   silicon/40
   graphite/50
 ]
+research: wraith-factory
