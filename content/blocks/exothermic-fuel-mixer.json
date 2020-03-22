@@ -34,4 +34,7 @@ requirements: [
 
 ]
 
-outputLiquid: exothermic-fuel/5
+outputLiquid:{
+liquid: exothermic-fuel
+amount:5.0
+}
