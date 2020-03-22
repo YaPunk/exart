@@ -26,7 +26,8 @@ ammo: {
   thermite: {
   
 	pierce: true
-	knockback: 30
+	knockback: 300
+	shake: 120
 	
 	lifetime: 1000
 	
@@ -49,9 +50,9 @@ ammo: {
   }
   
   aluminium: {
+  shake: 120
   
-  knockback: 20
-  
+  knockback: 200
 	pierce: true
   
 	lifetime: 1000

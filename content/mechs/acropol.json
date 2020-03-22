@@ -1,0 +1,37 @@
+name: Acropolis
+speed: 2
+boostSpeed: 3.5
+buildPower: 2
+engineColor: "666495"
+flying: true
+health: 1000
+weaponOffsetX: 4
+weapon: {
+  name: kvw
+  length: 1.5
+  reload: 4
+  alternate: false
+  bullet: {
+  
+  pierce: true
+	knockback: 300
+	shake: 120
+	
+	lifetime: 1000
+	
+	splashDamage: 750
+	
+    speed: 25
+
+    damage: 1500
+
+    bulletWidth: 20
+
+    bulletHeight: 27
+
+    shootEffect: explosion
+
+    smokeEffect: blockExplosionSmoke
+  
+  }
+}
