@@ -3,7 +3,6 @@ category: upgrade
 mech: acropol
 size: 2
 requirements: [
-  silver/70
   silicon/40
   graphite/50
 ]
