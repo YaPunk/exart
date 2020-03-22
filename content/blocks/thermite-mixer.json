@@ -34,4 +34,7 @@ requirements: [
 
 ]
 
-outputItem: thermite/1
+outputLiquid:{
+liquid: exothermic-fuel
+amount:5.0
+}
