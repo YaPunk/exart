@@ -34,4 +34,5 @@ requirements: [
 
 ]
 
-outputItem: water/5
+outputLiquid: water/5.0
+
