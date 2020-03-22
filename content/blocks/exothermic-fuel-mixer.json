@@ -1,44 +1,26 @@
-name: Exothermic Mixer
 type: GenericCrafter
-category: crafting
-size: 2
-hasItems: true
-hasLiquids: true
-hasPower: true
-liquidCapacity: 20
-craftTime: 60
+name: "Silver Crucible"
+description: "Melts silver down for use in crafting."
+liquidCapacity: 50
 outputLiquid: {
   liquid: water
   amount: 7
 }
-consumes:{
-power: 6
-items:{
-
-	items:[
-	
-		thermite/5
-		aluminium/3
-	
-	]
-
+size: 2
+hasPower: true
+hasLiquids: true
+craftTime: 10
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.6
+  item: aluminium
 }
-
-}
-
 requirements: [
-
-  titanium/90
-
-  thorium/80
-
-  silicon/60
-  
-  graphite/75
-
-  aluminium/50
-
+  lead/50
+  copper/80
+  silicon/20
 ]
-
-
-
+category: crafting
+research: kiln
+idleSound: respawning
+idleSoundVolume: 0.5
