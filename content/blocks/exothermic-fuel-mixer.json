@@ -8,7 +8,7 @@ hasPower: true
 liquidCapacity: 20
 craftTime: 60
 outputLiquid: {
-  liquid: water
+  liquid: exothermic-fuel
   amount: 7
 }
 consumes:{
