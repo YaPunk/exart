@@ -7,6 +7,10 @@ hasLiquids: true
 hasPower: true
 liquidCapacity: 20
 craftTime: 60
+outputLiquid: {
+  liquid: water
+  amount: 7
+}
 consumes:{
 power: 6
 items:{
@@ -36,5 +40,5 @@ requirements: [
 
 ]
 
-outputLiquid: water/5.0
+
 
