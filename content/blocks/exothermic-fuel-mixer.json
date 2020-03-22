@@ -3,7 +3,9 @@ type: GenericCrafter
 category: crafting
 size: 2
 hasItems: true
+hasLiquids: true
 hasPower: true
+liquidCapacity: 20
 craftTime: 60
 consumes:{
 power: 6
