@@ -1,0 +1,37 @@
+name: Thermite Mixer
+type: GenericCrafter
+category: crafting
+size: 2
+hasItems: true
+hasPower: true
+craftTime: 90
+consumes:{
+power: 3
+items:{
+
+	items:[
+	
+		oxids/5
+		aluminium/3
+	
+	]
+
+}
+
+}
+
+requirements: [
+
+  titanium/90
+
+  thorium/80
+
+  silicon/60
+  
+  graphite/75
+
+  aluminium/50
+
+]
+
+outputItem: thermite/1

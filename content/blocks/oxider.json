@@ -1,0 +1,44 @@
+name: Oxider
+type: GenericCrafter
+category: crafting
+size: 2
+hasLiquids: true
+hasItems: true
+hasPower: true
+craftTime: 240
+consumes:{
+power: 2
+items:{
+
+	items:[
+	
+		copper/2
+		lead/2
+	
+	]
+
+}
+
+liquid:{
+
+	liquid: water
+
+  amount: 0.25
+
+}
+
+}
+
+requirements: [
+
+  lead/50
+
+  thorium/80
+
+  silicon/60
+
+  aluminium/50
+
+]
+
+outputItem: oxids/1

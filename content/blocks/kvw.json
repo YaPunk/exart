@@ -1,0 +1,85 @@
+type: DoubleTurret
+
+name: Kaizer Vielgelm's Weapon
+
+description: nil
+
+health: 2500
+
+size: 4
+
+reload: 540
+
+range: 500
+
+ammoUseEffect: shellEjectSmall
+
+inaccuracy: 0
+
+rotatespeed: 0.25
+
+shots: 1
+
+ammo: {
+
+  thermite: {
+  
+	pierce: true
+	
+	lifetime: 1000
+	
+	splashDamage: 750
+	
+    speed: 25
+
+    damage: 1500
+
+    bulletWidth: 20
+
+    bulletHeight: 27
+
+    shootEffect: explosion
+
+    smokeEffect: blockExplosionSmoke
+
+    ammoMultiplier: 1
+	
+	ammoPerShot: 4
+
+  }
+  
+  aluminium: {
+  
+	pierce: true
+  
+	lifetime: 1000
+
+    speed: 20
+
+    damage: 750
+
+    bulletWidth: 20
+
+    bulletHeight: 27
+
+    shootEffect: explosion
+
+    smokeEffect: blockExplosionSmoke
+
+    ammoMultiplier: 1
+	
+	ammoPerShot: 2
+
+  }
+
+}
+
+requirements: [
+
+  aluminium/200
+
+  thorium/150
+
+]
+
+category: turret

@@ -1,0 +1,7 @@
+name: ExArt
+displayName: "[blue]Extended[] [red]Artillery[]"
+author: AMD
+description: UNPROPRIETARY DRIVERS
+version: "0.2"
+minGameVersion: "104.5"
+dependencies: [ ]

@@ -1,0 +1,6 @@
+itemDrop: aluminium
+type: OreBlock
+playerUnmineable: true
+oreDefault: true
+oreScale: 24.2
+oreThreshold: 0.83

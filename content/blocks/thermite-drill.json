@@ -1,0 +1,38 @@
+type: Drill
+
+name: Exotermic Drill
+
+tier: 6
+drillTime: 20
+
+consumes:{
+
+power: 10
+
+liquid:{
+
+	liquid: exothermic-fuel
+	amount: 0.5
+	
+	optional: false
+	booster: false
+
+}
+
+}
+
+requirements: [
+
+  titanium/90
+
+  thorium/80
+
+  silicon/60
+  
+  thermite/75
+
+  aluminium/50
+
+]
+category: production
+size: 4
