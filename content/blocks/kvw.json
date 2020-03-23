@@ -17,7 +17,7 @@ ammoUseEffect: shellEjectSmall
 inaccuracy: 0
 
 rotatespeed: 0.25
-
+shake: 120
 shots: 1
 ammoPerShot: 4
 
@@ -27,7 +27,7 @@ ammo: {
   
 	pierce: true
 	knockback: 300
-	shake: 120
+	
 	
 	lifetime: 1000
 	
@@ -50,7 +50,7 @@ ammo: {
   }
   
   aluminium: {
-  shake: 120
+
   
   knockback: 200
 	pierce: true

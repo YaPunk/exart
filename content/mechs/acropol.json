@@ -7,15 +7,14 @@ flying: true
 health: 1000
 weaponOffsetX: 4
 weapon: {
-  name: kvw
-  length: 1.5
+  name: noGun
+  length: 0
   reload: 4
   alternate: false
   bullet: {
   
   pierce: true
 	knockback: 300
-	shake: 120
 	
 	lifetime: 1000
 	
