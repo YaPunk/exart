@@ -12,25 +12,22 @@ weapon: {
   reload: 4
   alternate: false
   bullet: {
-  
-  pierce: true
-	knockback: 300
 	
 	lifetime: 1000
 	
-	splashDamage: 750
+	splashDamage: 100
 	
     speed: 25
 
-    damage: 1500
+    damage: 150
 
-    bulletWidth: 20
+    bulletWidth: 3
 
-    bulletHeight: 27
+    bulletHeight: 6
 
-    shootEffect: explosion
+    shootEffect: shootSmall
 
-    smokeEffect: blockExplosionSmoke
+    smokeEffect: shootSmallSmoke
   
   }
 }
